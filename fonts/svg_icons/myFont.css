@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('fonts/myFont.eot');
+    src: url('fonts/myFont.eot') format('embedded-opentype'),
+         url('fonts/myFont.woff2') format('woff2'),
+         url('fonts/myFont.woff') format('woff'),
+         url('fonts/myFont.ttf') format('truetype'),
+         url('fonts/myFont.svg#myFont') format('svg');
+}
+
+.my {
+    font-family: 'myFont', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: none;
+}
+
+.my_a::before {
+    content: 'a';
+    display: inline-block;
+}
+
+.my_b::before {
+    content: 'b'
+}
+
+.my_c::before {
+    content: 'c'
+}
+
+.my_d::before {
+    content: 'd'
+}
+
+.my_e::before {
+    content: 'e'
+}
+
+.my_f::before {
+    content: 'f'
+}
+
+.my_g::before {
+    content: 'g'
+}
+
+.my_h::before {
+    content: 'h'
+}
+
+.my_i::before {
+    content: 'i'
+}
+
+.my_j::before {
+    content: 'j'
+}
+.my_k::before {
+    content: 'k'
+}
